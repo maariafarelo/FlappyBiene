@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aad4986-db73-4d39-8e3d-b60fb6f56263" name="Changes" comment="Small changes">
-      <change beforePath="$PROJECT_DIR$/objects/floor.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/floor.py" afterDir="false" />
+    <list default="true" id="4aad4986-db73-4d39-8e3d-b60fb6f56263" name="Changes" comment="Biene class modified">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +108,8 @@
       <workItem from="1728407951695" duration="1279000" />
       <workItem from="1728410028245" duration="314000" />
       <workItem from="1728410791586" duration="304000" />
+      <workItem from="1728411422314" duration="153000" />
+      <workItem from="1728411634629" duration="574000" />
     </task>
     <task id="LOCAL-00001" summary="Creation">
       <option name="closed" value="true" />
@@ -157,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728410957711</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Biene class modified">
+      <option name="closed" value="true" />
+      <created>1728411535738</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728411535738</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,12 +179,13 @@
     <MESSAGE value="Background and &quot;flappy bird&quot; changed. Background loop programmed + works" />
     <MESSAGE value="Main over" />
     <MESSAGE value="Small changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small changes" />
+    <MESSAGE value="Biene class modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="Biene class modified" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FlappyBienne$floor.coverage" NAME="floor Coverage Results" MODIFIED="1728408863144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/objects" />
     <SUITE FILE_PATH="coverage/FlappyBienne$column.coverage" NAME="column Coverage Results" MODIFIED="1728410137398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/objects" />
-    <SUITE FILE_PATH="coverage/FlappyBienne$main.coverage" NAME="main Coverage Results" MODIFIED="1728411152770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlappyBienne$main.coverage" NAME="main Coverage Results" MODIFIED="1728412108732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlappyBienne$background.coverage" NAME="background Coverage Results" MODIFIED="1728397830855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/objects" />
     <SUITE FILE_PATH="coverage/FlappyBienne$configs.coverage" NAME="configs Coverage Results" MODIFIED="1728408618277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
