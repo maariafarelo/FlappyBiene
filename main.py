@@ -36,7 +36,6 @@ def create_sprites():
 
     return Bird(sprites), GameStartMessage(sprites), Score(sprites)
 
-
 bird, game_start_message, score = create_sprites()
 
 while running:
