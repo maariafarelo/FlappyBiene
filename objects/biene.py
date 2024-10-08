@@ -7,7 +7,7 @@ from objects.column import Column
 from objects.floor import Floor
 
 
-class Bird(pygame.sprite.Sprite):
+class Biene(pygame.sprite.Sprite):
     def __init__(self, *groups):
         self._layer = Layer.PLAYER
 

@@ -3,7 +3,7 @@ import pygame
 import assets
 import configs
 from objects.background import Background
-from objects.bird import Bird
+from objects.biene import Biene
 from objects.column import Column
 from objects.floor import Floor
 from objects.gameover_message import GameOverMessage
@@ -34,9 +34,9 @@ def create_sprites():
     Floor(0, sprites)
     Floor(1, sprites)
 
-    return Bird(sprites), GameStartMessage(sprites), Score(sprites)
+    return Biene(sprites), GameStartMessage(sprites), Score(sprites)
 
-bird, game_start_message, score = create_sprites()
+biene, game_start_message, score = create_sprites()
 
 while running:
     for event in pygame.event.get():
@@ -53,10 +53,10 @@ while running:
                 gameover = False
                 gamestarted = False
                 sprites.empty()
-                bird, game_start_message, score = create_sprites()
+                biene, game_start_message, score = create_sprites()
 
         if not gameover:
-            bird.handle_event(event)
+            biene.handle_event(event)
 
     screen.fill(0)
 
@@ -65,7 +65,7 @@ while running:
     if gamestarted and not gameover:
         sprites.update()
 
-    if bird.check_collision(sprites) and not gameover:
+    if biene.check_collision(sprites) and not gameover:
         gameover = True
         gamestarted = False
         GameOverMessage(sprites)
