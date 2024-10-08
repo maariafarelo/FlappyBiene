@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aad4986-db73-4d39-8e3d-b60fb6f56263" name="Changes" comment="Creation">
-      <change afterPath="$PROJECT_DIR$/assets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/bienne.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/columna.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/floor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/gameover_message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/gamestart_message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="4aad4986-db73-4d39-8e3d-b60fb6f56263" name="Changes" comment="Background added, biene added, first pages and functions created.">
+      <change afterPath="$PROJECT_DIR$/assets/sprites/biene.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sprites/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bienne.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/background.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,20 +54,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.configs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.background.executor": "Run",
+    "Python.configs.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/farelo/PycharmProjects/FlappyBienne/assets/sprites",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/sprites" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/sprites" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -90,6 +97,10 @@
       <workItem from="1728385567702" duration="2083000" />
       <workItem from="1728387829963" duration="62000" />
       <workItem from="1728387908619" duration="121000" />
+      <workItem from="1728388942845" duration="766000" />
+      <workItem from="1728389956995" duration="685000" />
+      <workItem from="1728395437417" duration="902000" />
+      <workItem from="1728397676731" duration="409000" />
     </task>
     <task id="LOCAL-00001" summary="Creation">
       <option name="closed" value="true" />
@@ -99,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728385723496</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Background added, biene added, first pages and functions created.">
+      <option name="closed" value="true" />
+      <created>1728389000555</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728389000555</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,10 +126,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation" />
+    <MESSAGE value="Background added, biene added, first pages and functions created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Background added, biene added, first pages and functions created." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FlappyBienne$main.coverage" NAME="main Coverage Results" MODIFIED="1728388013459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlappyBienne$main.coverage" NAME="main Coverage Results" MODIFIED="1728398038764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlappyBienne$background.coverage" NAME="background Coverage Results" MODIFIED="1728397830855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/objects" />
     <SUITE FILE_PATH="coverage/FlappyBienne$configs.coverage" NAME="configs Coverage Results" MODIFIED="1728387888503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

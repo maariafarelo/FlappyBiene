@@ -1,12 +1,12 @@
 import os
 import pygame
-assets = {}
+sprites = {}
 
 def load_sprites():
-    path = os.path.join("assets")
+    path = os.path.join("assets","sprites")
     for file in os.listdir(path):
-        assets[file.split('.')[0]] = pygame.image.load(os.path.join(path, file))
+        sprites[file.split('.')[0]] = pygame.image.load(os.path.join(path, file))
 
 
-def get_assets(name):
-    return assets[name]
+def get_sprites(name):
+    return sprites[name]
