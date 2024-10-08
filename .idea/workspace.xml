@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4aad4986-db73-4d39-8e3d-b60fb6f56263" name="Changes" comment="Background and &quot;flappy bird&quot; changed. Background loop programmed + works">
-      <change afterPath="$PROJECT_DIR$/assets/sprites/column.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sprites/floor.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/floor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FlappyBienne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FlappyBienne.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sprites/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sprites/biene.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sprites/biene.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/column.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/column.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,23 +51,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.background.executor&quot;: &quot;Run&quot;,
-    &quot;Python.column.executor&quot;: &quot;Run&quot;,
-    &quot;Python.configs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/farelo/PycharmProjects/FlappyBienne/assets/sprites&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.background.executor": "Run",
+    "Python.column.executor": "Run",
+    "Python.configs.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/farelo/Desktop/FlappyBienne",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/sprites" />
@@ -107,6 +103,7 @@
       <workItem from="1728400401830" duration="393000" />
       <workItem from="1728402570154" duration="12000" />
       <workItem from="1728402629694" duration="588000" />
+      <workItem from="1728407504502" duration="155000" />
     </task>
     <task id="LOCAL-00001" summary="Creation">
       <option name="closed" value="true" />
@@ -144,19 +141,9 @@
     <MESSAGE value="Background and &quot;flappy bird&quot; changed. Background loop programmed + works" />
     <option name="LAST_COMMIT_MESSAGE" value="Background and &quot;flappy bird&quot; changed. Background loop programmed + works" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/objects/column.py</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FlappyBienne$column.coverage" NAME="column Coverage Results" MODIFIED="1728400740296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/objects" />
-    <SUITE FILE_PATH="coverage/FlappyBienne$main.coverage" NAME="main Coverage Results" MODIFIED="1728403170711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlappyBienne$main.coverage" NAME="main Coverage Results" MODIFIED="1728407582182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlappyBienne$background.coverage" NAME="background Coverage Results" MODIFIED="1728397830855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/objects" />
     <SUITE FILE_PATH="coverage/FlappyBienne$configs.coverage" NAME="configs Coverage Results" MODIFIED="1728387888503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
