@@ -4,11 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aad4986-db73-4d39-8e3d-b60fb6f56263" name="Changes" comment="Background and &quot;flappy bird&quot; changed. Background loop programmed + works">
-      <change beforePath="$PROJECT_DIR$/.idea/FlappyBienne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FlappyBienne.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4aad4986-db73-4d39-8e3d-b60fb6f56263" name="Changes" comment="Main over">
+      <change afterPath="$PROJECT_DIR$/assets/audios/hit.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/audios/point.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/audios/wing.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/red_bird.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/floor_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/gameover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/pipe-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/redbird-downflap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/redbird-midflap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sprites/redbird-upflap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/bird.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/score.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sprites/floor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/background.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/bienne.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/column.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/column.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/floor.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/floor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/gameover_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/gameover_message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/gamestart_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/gamestart_message.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,26 +82,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.background.executor": "Run",
-    "Python.column.executor": "Run",
-    "Python.configs.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/farelo/Desktop/FlappyBienne",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.background.executor&quot;: &quot;Run&quot;,
+    &quot;Python.column.executor&quot;: &quot;Run&quot;,
+    &quot;Python.configs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.floor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/farelo/Desktop/FlappyBienne/assets/sprites&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/sprites" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/objects" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/sprites" />
@@ -104,6 +139,8 @@
       <workItem from="1728402570154" duration="12000" />
       <workItem from="1728402629694" duration="588000" />
       <workItem from="1728407504502" duration="155000" />
+      <workItem from="1728407951695" duration="1279000" />
+      <workItem from="1728410028245" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="Creation">
       <option name="closed" value="true" />
@@ -129,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728398485186</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Main over">
+      <option name="closed" value="true" />
+      <created>1728408120079</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728408120079</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,12 +184,14 @@
     <MESSAGE value="Creation" />
     <MESSAGE value="Background added, biene added, first pages and functions created." />
     <MESSAGE value="Background and &quot;flappy bird&quot; changed. Background loop programmed + works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Background and &quot;flappy bird&quot; changed. Background loop programmed + works" />
+    <MESSAGE value="Main over" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main over" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FlappyBienne$column.coverage" NAME="column Coverage Results" MODIFIED="1728400740296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/objects" />
-    <SUITE FILE_PATH="coverage/FlappyBienne$main.coverage" NAME="main Coverage Results" MODIFIED="1728407582182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlappyBienne$floor.coverage" NAME="floor Coverage Results" MODIFIED="1728408863144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/objects" />
+    <SUITE FILE_PATH="coverage/FlappyBienne$main.coverage" NAME="main Coverage Results" MODIFIED="1728409140549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlappyBienne$background.coverage" NAME="background Coverage Results" MODIFIED="1728397830855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/objects" />
-    <SUITE FILE_PATH="coverage/FlappyBienne$configs.coverage" NAME="configs Coverage Results" MODIFIED="1728387888503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlappyBienne$configs.coverage" NAME="configs Coverage Results" MODIFIED="1728408618277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

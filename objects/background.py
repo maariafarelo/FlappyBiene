@@ -1,13 +1,16 @@
-from operator import index
-import pygame
+import pygame.sprite
+
 import assets
 import configs
+from layer import Layer
 
 
 class Background(pygame.sprite.Sprite):
     def __init__(self, index, *groups):
-        self.image = assets.get_sprites("background")
+        self._layer = Layer.BACKGROUND
+        self.image = assets.get_sprite("background")
         self.rect = self.image.get_rect(topleft=(configs.SCREEN_WIDTH * index, 0))
+
         super().__init__(*groups)
 
     def update(self):

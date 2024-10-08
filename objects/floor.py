@@ -1,19 +1,21 @@
-from operator import index
-
 import pygame.sprite
+
 import assets
 import configs
+from layer import Layer
 
 
-class Floor (pygame.sprite.Sprite):
-    def __init__(self,index, *groups):
-
-        self.image = assets.get_sprites("floor")
-        self.rect = self.image.get_rect(bottomleft=(configs.SCREEN_WIDTH * index,configs.SCREEN_HEIGHT))
+class Floor(pygame.sprite.Sprite):
+    def __init__(self, index, *groups):
+        self._layer = Layer.FLOOR
+        self.image = assets.get_sprite("floor_small")
+        self.rect = self.image.get_rect(bottomleft=(configs.SCREEN_WIDTH * index, configs.SCREEN_HEIGHT -2 * index ))
+        self.mask = pygame.mask.from_surface(self.image)
         super().__init__(*groups)
 
     def update(self):
-        self.rect.x -= 2
+        self.rect.x -= 0
+        self.rect.y -= 0
 
         if self.rect.right <= 0:
             self.rect.x = configs.SCREEN_WIDTH
