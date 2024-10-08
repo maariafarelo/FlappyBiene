@@ -2,6 +2,8 @@ import pygame
 import assets
 import configs
 from objects.background import Background
+from objects.column import Column
+from objects.floor import Floor
 
 pygame.init()
 
@@ -14,6 +16,11 @@ sprites = pygame.sprite.LayeredUpdates()
 Background(0, sprites)
 Background(1, sprites)
 
+Floor(0, sprites)
+Floor(1, sprites)
+
+
+Column (sprites)
 
 while running:
     for event in pygame.event.get():
