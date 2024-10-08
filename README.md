@@ -11,5 +11,6 @@ The astronaut vector was created by HackUPC's design team for our landing page (
 
 ## Does it work?
 It's the first version of the game. It works, but it definitely needs some improvements, as it still has a few mistakes.
+
  ![Screenshot_20241008_195918](https://github.com/user-attachments/assets/4c07261a-c027-4429-a1f3-800e8874311b)
 
