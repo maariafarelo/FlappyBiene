@@ -10,7 +10,7 @@ from layer import Layer
 class Column(pygame.sprite.Sprite):
     def __init__(self, *groups):
         self._layer = Layer.OBSTACLE
-        self.gap = 150
+        self.gap = 160
 
         self.sprite = assets.get_sprite("column")
         self.sprite_rect = self.sprite.get_rect()
@@ -28,7 +28,7 @@ class Column(pygame.sprite.Sprite):
 
         sprite_floor_height = assets.get_sprite("floor_small").get_rect().height
         min_y = 100
-        max_y = configs.SCREEN_HEIGHT - sprite_floor_height - 100
+        max_y = configs.SCREEN_HEIGHT - sprite_floor_height - 70
 
         self.rect = self.image.get_rect(midleft=(configs.SCREEN_WIDTH, random.uniform(min_y, max_y)))
         self.mask = pygame.mask.from_surface(self.image)
