@@ -14,7 +14,7 @@ pygame.init()
 
 screen = pygame.display.set_mode((configs.SCREEN_WIDTH, configs.SCREEN_HEIGHT))
 
-pygame.display.set_caption("Flappy Biene Game v1.0")
+pygame.display.set_caption("Flappy Biene Game v1.1")
 
 clock = pygame.time.Clock()
 column_create_event = pygame.USEREVENT
