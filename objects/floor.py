@@ -1,7 +1,6 @@
 from operator import index
 
 import pygame.sprite
-
 import assets
 import configs
 
